@@ -18,7 +18,7 @@ Basic validation (e.g., email format, required fields).
 
 ✅ Payment Method Selection
 
-Options like Credit Card, PayPal, Cash on Delivery.
+Options like Credit Card, PayPal, UPI.
 
 Visual feedback when selected.
 
@@ -32,14 +32,14 @@ Simulates a record of purchases (no backend—data resets on refresh).
 
 Works on mobile, tablet, and desktop.
 
-How It Works
+How It Works:
 User fills in personal details.
 
 Chooses a payment method.
 
 Submits the form.
 
-Their data appears in the "Recent Orders" table below (for staff reference).
+Their data appears in the "Purchase Summary" table below (for staff reference).
 
 Note
 ⚠️ Frontend Only – No real transactions, database, or server. Data is lost on refresh.
