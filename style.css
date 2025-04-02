@@ -1,0 +1,88 @@
+.container{
+  border-radius: 5px;
+  background-color: paleblue;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 900px;
+  background-color: white;
+  grid-template-columns:50% 50%;
+  justify-content:content;
+  
+}
+h2 {
+  text-align: center;
+  font-family: Georgia;
+}
+.payradio{
+	text-align:left;
+}
+.container input {
+  width: 100%;
+  clear: both;
+}
+radio {
+	padding: 20px;
+  align-self: left;
+}
+input {
+  width: 40%;
+  padding: 9px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.button {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+   background: linear-gradient(to right, lightblue, pink);
+}
+#btn{
+    cursor: pointer;
+    background: linear-gradient(to right, lightblue, pink);
+}
+.button{
+    cursor: pointer;
+	 background: linear-gradient(to left, lightblue, pink);
+}
+
+table, td, th {
+  border: 1px solid;
+}
+body{
+	
+background-image: url("https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80")
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+  overflow:auto;
+  
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+th {
+  font-family: (OTF, TTF, WOFF);
+  height: 50px;
+}
